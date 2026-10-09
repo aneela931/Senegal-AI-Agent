@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify quoted login errors identical in EN UI when story strings are English</description>
+   <name>TC_908_031</name>
+   <tag>SAA-908,Localization</tag>
+   <comment>SAA-908. Text locators because the protected Flutter APK has no UI Test IDs.</comment>
+   <testCaseGuid>097c3a6b-089d-48ec-af04-664a918c1d6e</testCaseGuid>
+</TestCaseEntity>

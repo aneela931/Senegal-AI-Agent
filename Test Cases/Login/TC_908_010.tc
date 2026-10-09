@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify invalid OTP shows exact error text</description>
+   <name>TC_908_010</name>
+   <tag>SAA-908,Negative</tag>
+   <comment>SAA-908. Text locators because the protected Flutter APK has no UI Test IDs.</comment>
+   <testCaseGuid>449f26ce-d002-417b-b61d-ebb149b895cc</testCaseGuid>
+</TestCaseEntity>

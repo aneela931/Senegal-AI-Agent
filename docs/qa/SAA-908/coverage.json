@@ -1,0 +1,501 @@
+{
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-002",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-003",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-004",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-005",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-006",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-007",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-008",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-009",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-010",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-011",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-012",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-013",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-014",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-015",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-016",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-017",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-018",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-019",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-020",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-021",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-022",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-023",
+      "testable": false,
+      "blocked": true
+    },
+    {
+      "id": "REQ-024",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-025",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-026",
+      "testable": false,
+      "blocked": true
+    },
+    {
+      "id": "REQ-027",
+      "testable": false,
+      "blocked": true
+    },
+    {
+      "id": "REQ-028",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-029",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-030",
+      "testable": true,
+      "blocked": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "TC-908-001",
+      "reqs": [
+        "REQ-001",
+        "REQ-002"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-002",
+      "reqs": [
+        "REQ-003"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-003",
+      "reqs": [
+        "REQ-004",
+        "REQ-005",
+        "REQ-006"
+      ],
+      "technique": "boundary",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-004",
+      "reqs": [
+        "REQ-007"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-005",
+      "reqs": [
+        "REQ-008"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-006",
+      "reqs": [
+        "REQ-009",
+        "REQ-010"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-007",
+      "reqs": [
+        "REQ-011"
+      ],
+      "technique": "negative",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-009",
+      "reqs": [
+        "REQ-012",
+        "REQ-013"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-010",
+      "reqs": [
+        "REQ-014"
+      ],
+      "technique": "negative",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-011",
+      "reqs": [
+        "REQ-013"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-012",
+      "reqs": [
+        "REQ-015"
+      ],
+      "technique": "negative",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-013",
+      "reqs": [
+        "REQ-016"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-014",
+      "reqs": [
+        "REQ-018",
+        "REQ-020"
+      ],
+      "technique": "negative",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-015",
+      "reqs": [
+        "REQ-018",
+        "REQ-020"
+      ],
+      "technique": "negative",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-016",
+      "reqs": [
+        "REQ-019",
+        "REQ-020"
+      ],
+      "technique": "negative",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-017",
+      "reqs": [
+        "REQ-021"
+      ],
+      "technique": "boundary",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-018",
+      "reqs": [
+        "REQ-017",
+        "REQ-028"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-019",
+      "reqs": [
+        "REQ-023"
+      ],
+      "technique": "other",
+      "automationCandidate": false,
+      "automated": false,
+      "blockedRequirement": true,
+      "execution": "blocked"
+    },
+    {
+      "id": "TC-908-020",
+      "reqs": [
+        "REQ-024"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-021",
+      "reqs": [
+        "REQ-025"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-022",
+      "reqs": [
+        "REQ-026"
+      ],
+      "technique": "other",
+      "automationCandidate": false,
+      "automated": false,
+      "blockedRequirement": true,
+      "execution": "blocked"
+    },
+    {
+      "id": "TC-908-023",
+      "reqs": [
+        "REQ-027"
+      ],
+      "technique": "other",
+      "automationCandidate": false,
+      "automated": false,
+      "blockedRequirement": true,
+      "execution": "blocked"
+    },
+    {
+      "id": "TC-908-024",
+      "reqs": [
+        "REQ-028"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-025",
+      "reqs": [
+        "REQ-029"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-026",
+      "reqs": [
+        "REQ-030"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-027",
+      "reqs": [
+        "REQ-005"
+      ],
+      "technique": "negative",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-028",
+      "reqs": [
+        "REQ-004",
+        "REQ-010",
+        "REQ-012",
+        "REQ-016",
+        "REQ-017",
+        "REQ-028"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-031",
+      "reqs": [
+        "REQ-011",
+        "REQ-014"
+      ],
+      "technique": "other",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-033",
+      "reqs": [
+        "REQ-013"
+      ],
+      "technique": "negative",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-908-034",
+      "reqs": [
+        "REQ-022"
+      ],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    }
+  ]
+}

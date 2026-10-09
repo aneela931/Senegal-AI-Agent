@@ -1,0 +1,22 @@
+{
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "testable": false,
+      "blocked": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "TC-920-001",
+      "reqs": [
+        "REQ-001"
+      ],
+      "technique": "other",
+      "automationCandidate": false,
+      "automated": false,
+      "blockedRequirement": true,
+      "execution": "blocked"
+    }
+  ]
+}

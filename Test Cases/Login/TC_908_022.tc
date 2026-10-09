@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify allowed connected device count configurable in Back Office</description>
+   <name>TC_908_022</name>
+   <tag>SAA-908,Configuration</tag>
+   <comment>SAA-908. Text locators because the protected Flutter APK has no UI Test IDs.</comment>
+   <testCaseGuid>5c5866ed-31b7-4e05-ac9b-f2910d88d930</testCaseGuid>
+</TestCaseEntity>

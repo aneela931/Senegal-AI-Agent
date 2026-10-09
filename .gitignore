@@ -1,0 +1,27 @@
+Reports/
+bin/
+Libs/
+.classpath
+.project
+*.log
+*.err
+*.tmp
+.idea/
+allure-results/*
+!allure-results/.gitkeep
+allure-report/
+
+# App binaries exceed GitHub's 100 MB file limit
+*.apk
+*.aab
+
+# Katalon and Eclipse generated files
+.cache/
+.settings/
+
+# Local MCP config contains tokens
+.cursor/mcp.json
+.cursor/*Copy.json
+
+# Cursor session HTML dumps
+.cursor/**/*.html

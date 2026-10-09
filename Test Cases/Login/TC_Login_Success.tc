@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>One login only: agent MSISDN and PIN from staging.json. On first login taps Enable now on the biometric screen, then waits for the dashboard. Does not retry or restart. Leaves the app open.</description>
+   <name>TC_Login_Success</name>
+   <tag>login,flow,keep-open</tag>
+   <comment>Does not call Mobile.closeApplication(). Reset the app with scripts/prepare-app-on-device.ps1 before running.</comment>
+   <testCaseGuid>166dd3c8-85ec-4678-8e73-445801e843e6</testCaseGuid>
+</TestCaseEntity>

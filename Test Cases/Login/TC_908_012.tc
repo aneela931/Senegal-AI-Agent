@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify Privacy, Camera and Image access must be accepted before continue</description>
+   <name>TC_908_012</name>
+   <tag>SAA-908,Functional</tag>
+   <comment>SAA-908. Text locators because the protected Flutter APK has no UI Test IDs.</comment>
+   <testCaseGuid>ec3afa01-6f96-4671-8aa2-f0d7a27cb86c</testCaseGuid>
+</TestCaseEntity>

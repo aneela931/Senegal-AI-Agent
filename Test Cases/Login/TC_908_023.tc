@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify new MSISDN prefixes can be added via Back Office</description>
+   <name>TC_908_023</name>
+   <tag>SAA-908,Configuration</tag>
+   <comment>SAA-908. Text locators because the protected Flutter APK has no UI Test IDs.</comment>
+   <testCaseGuid>5d4d10a7-a748-4fd0-9643-a758b01e8e9e</testCaseGuid>
+</TestCaseEntity>

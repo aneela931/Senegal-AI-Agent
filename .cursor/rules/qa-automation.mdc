@@ -1,0 +1,41 @@
+---
+description: >-
+  Activates the Senegal Agent App Jira-to-Katalon QA workflow. Use when the user
+  shares a Jira key (SAA-908, SAA-1025) or says Automate SAA-908, Generate test
+  cases for a Jira key, Read Jira and create QA cases, Create Katalon tests for
+  a story, Update tests for this Jira story, or Run SAA-908 automation. Load the
+  jira-katalon-automation skill first.
+alwaysApply: false
+---
+
+# QA automation workflow
+
+When the user shares a Jira key, or asks to analyse a Jira story, design cases, export Excel, create Katalon tests, or run those tests on a device, load and follow `.cursor/skills/jira-katalon-automation/SKILL.md` before editing anything. A key alone (`SAA-908`) starts the full checklist. Do not wait for a second prompt.
+
+Triggers include:
+
+- A bare Jira key: `SAA-908`, `SAA-1025`
+- "Automate SAA-908"
+- "Generate test cases for SAA-908"
+- "Read Jira SAA-908 and create QA cases"
+- "Create Katalon tests for SAA-908"
+- "Update tests for this Jira story"
+- "Run SAA-908 automation"
+
+## Ticket + attachments
+
+Fetch the issue with the Atlassian plugin (`view: full`). Then read comments, linked issues that change behaviour, subtasks, and **every attachment**. Download bytes into `docs/qa/<JIRA-KEY>/attachments/` and read them (images, Excel, PDF). Names without contents are not evidence. If a file cannot be read, mark it `not accessible`, ask the user to share it, and do not invent its contents. Then write the requirement model, open questions, Excel workbook, coverage / automation / execution reports, and Katalon cases.
+
+## Katalon cases — step by step
+
+Excel `Input` is numbered atomic actions (one tap, type, wait, or observe per number). The Groovy script comments those same numbers and calls one page or journey method per step, then asserts the Expected Result. Do not collapse a multi-step case into one undocumented helper.
+
+Locators follow `.cursor/skills/jira-katalon-automation/references/qa-semantics.md`: spy Accessibility (`content-desc` / `resource-id` like `login_screen_text_field` or `login_screen_button_3`). Do not use visible text as the primary locator. Do not invent a semantic id; report `SEMANTIC_ID_MISSING`.
+
+## Device
+
+Before every local suite and every local test case, the app under test must be cleared to a cold start. `CloudApp.launch()` calls `DeviceReset.clearLocalAppData()` (`pm clear` + re-grant). Do not remove that call. Also run `.cursor/skills/jira-katalon-automation/scripts/prepare-app-on-device.ps1` from the agent before a device check; do not start a suite until it prints `APP_STATE cleared` or `APP_STATE installed` (exit 5 `KEYWORDS_STALE` means refresh Studio with F5 first). A leftover logged-in session has no language chip and is ENVIRONMENT, not a product defect.
+
+Reuse the existing login page objects. On this build the 4-circle PIN field only focuses when you tap the first circle (not the field centre), the MSISDN continue control exists only while the field has focus, `forceAppLaunch` is required, and first-login biometric (`biometric_enable_screen`) is success — tap Enable, do not restart login. These are handled in `Keywords/com/senegalagent/pages/` and documented in the skill's `references/katalon-architecture.md` under "Device-UI quirks". Do not regenerate `PinPage`, `MsisdnPage`, `BiometricPage`, or `LoginJourney` in a way that drops them.
+
+Do not generate cases from a summary alone. Do not overwrite `SAA-908 Login - usecase (1).xlsx`. Do not duplicate existing page objects, journeys, or test cases. Do not invent credentials, OTP values, selectors, or attachment contents.

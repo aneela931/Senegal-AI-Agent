@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description>Neutral template profile. Do not use this profile for a run.</description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Android applicationId.</description>
+      <initValue>''</initValue>
+      <name>APP_PACKAGE</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>App ID from Test Execution Cloud, Applications.</description>
+      <initValue>''</initValue>
+      <name>CLOUD_APP_ID</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Project-relative APK path.</description>
+      <initValue>''</initValue>
+      <name>LOCAL_APK_PATH</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>TestCloud device display name.</description>
+      <initValue>''</initValue>
+      <name>DEVICE_NAME</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>TestCloud device id.</description>
+      <initValue>''</initValue>
+      <name>DEVICE_ID</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Android platform version.</description>
+      <initValue>''</initValue>
+      <name>OS_VERSION</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Named environment.</description>
+      <initValue>''</initValue>
+      <name>ENVIRONMENT</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Expected app version from Applications metadata.</description>
+      <initValue>''</initValue>
+      <name>EXPECTED_VERSION</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Expected build / versionCode from Applications metadata.</description>
+      <initValue>''</initValue>
+      <name>EXPECTED_BUILD</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default wait timeout in seconds.</description>
+      <initValue>30</initValue>
+      <name>DEFAULT_TIMEOUT</name>
+      <protected>false</protected>
+      <valueType>NUMBER</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>cloud or local.</description>
+      <initValue>'local'</initValue>
+      <name>RUN_TARGET</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

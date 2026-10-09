@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify PIN reset request available from PIN screen</description>
+   <name>TC_908_019</name>
+   <tag>SAA-908,Functional</tag>
+   <comment>SAA-908. Text locators because the protected Flutter APK has no UI Test IDs.</comment>
+   <testCaseGuid>1171a9bd-f8d6-48f9-afc5-881f6e3f453d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify default language on cold start is French</description>
+   <name>TC_908_001</name>
+   <tag>SAA-908,Functional / Localization</tag>
+   <comment>SAA-908. Text locators because the protected Flutter APK has no UI Test IDs.</comment>
+   <testCaseGuid>7fdca5bc-7137-4406-adfd-29da82905b4e</testCaseGuid>
+</TestCaseEntity>

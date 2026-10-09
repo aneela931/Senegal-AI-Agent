@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify wrong PIN 1st attempt message</description>
+   <name>TC_908_014</name>
+   <tag>SAA-908,Negative</tag>
+   <comment>SAA-908. Text locators because the protected Flutter APK has no UI Test IDs.</comment>
+   <testCaseGuid>2b3416d8-2400-42c3-aa3b-c3894e37d3f8</testCaseGuid>
+</TestCaseEntity>

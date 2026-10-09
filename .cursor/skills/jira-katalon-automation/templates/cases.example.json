@@ -1,0 +1,24 @@
+{
+  "sheetName": "EXAMPLE-1",
+  "cases": [
+    {
+      "id": "TC-1-001",
+      "feature": "Example",
+      "summary": "Format sample only. Not a Senegal Agent test.",
+      "preconditions": "None",
+      "input": "1. Wait for the named screen.\n2. Tap one semantic widget.\n3. Observe the expected result. Format sample only.",
+      "expected": "Workbook keeps the template columns and styles.",
+      "actual": "",
+      "testType": "Functional",
+      "status": "Not Executed",
+      "priority": "Low",
+      "environment": "staging",
+      "build": "",
+      "assignee": "",
+      "traceability": "EXAMPLE-1; REQ-001; format sample",
+      "automation": "Manual",
+      "defectId": "",
+      "executionDate": ""
+    }
+  ]
+}

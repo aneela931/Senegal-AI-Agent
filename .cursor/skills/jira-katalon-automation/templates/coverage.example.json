@@ -1,0 +1,27 @@
+{
+  "requirements": [
+    { "id": "REQ-001", "testable": true, "blocked": false },
+    { "id": "REQ-002", "testable": true, "blocked": true },
+    { "id": "REQ-003", "testable": false, "blocked": false }
+  ],
+  "cases": [
+    {
+      "id": "TC-1-001",
+      "reqs": ["REQ-001"],
+      "technique": "positive",
+      "automationCandidate": true,
+      "automated": false,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-1-002",
+      "reqs": ["REQ-002"],
+      "technique": "negative",
+      "automationCandidate": false,
+      "automated": false,
+      "blockedRequirement": true,
+      "execution": "blocked"
+    }
+  ]
+}

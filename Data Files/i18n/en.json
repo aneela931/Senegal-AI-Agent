@@ -1,0 +1,70 @@
+{
+  "splash": {
+    "language": {
+      "french": "French",
+      "english": "Anglais"
+    }
+  },
+  "msisdn": {
+    "error": {
+      "agentOnly": "The phone number entered is not allowed to connect to the YAS Agent App. Please try again with a correct number."
+    }
+  },
+  "otp": {
+    "button": {
+      "resend": "Resend OTP"
+    },
+    "error": {
+      "invalid": "Invalid OTP. The code you entered is incorrect. Please check the OTP and try again."
+    }
+  },
+  "terms": {
+    "consent": {
+      "privacy": "Privacy terms",
+      "camera": "Camera access",
+      "image": "Image access"
+    },
+    "button": {
+      "confirmAndContinue": "Confirm and Continue"
+    }
+  },
+  "pin": {
+    "button": {
+      "reset": "PIN reset"
+    },
+    "error": {
+      "incorrect": "PIN entered is incorrect. Please try again.",
+      "lockPrefix": "You have entered the wrong password multiple times. Your account is temporarily locked. Please wait"
+    }
+  },
+  "device": {
+    "message": {
+      "loggedOutOtherDevice": "You have been logged out of your current session because your account was accessed using your credentials on another device."
+    }
+  },
+  "profile": {
+    "settings": "Profile Settings"
+  },
+  "biometric": {
+    "fingerprint": "fingerprint",
+    "face": "face"
+  },
+  "home": {
+    "dashboard": "Dashboard",
+    "clientRegistration": "Client Registration",
+    "airtimeAndBundle": "Airtime & Bundle",
+    "customerServices": "Customer Services",
+    "search": "Search",
+    "activityHistory": "Activity History",
+    "home": "Home",
+    "notifications": "Notifications",
+    "myAccount": "My Account",
+    "simSwap": "SIM Swap",
+    "reidentification": "Re-identification",
+    "upgradeCustomerFile": "Upgrade Customer File",
+    "performance": "Performance"
+  },
+  "customerServices": {
+    "invalidMsisdn": "It seems the MSISDN entered is either incorrect or inactive."
+  }
+}

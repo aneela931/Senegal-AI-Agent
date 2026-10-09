@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description>TestCloud profile. RUN_TARGET is cloud. TestCloud installs CLOUD_APP_ID, then CloudApp activates APP_PACKAGE.</description>
+   <name>cloud</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Android applicationId.</description>
+      <initValue>'sn.free.agent.app'</initValue>
+      <name>APP_PACKAGE</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>App ID from Test Execution Cloud, Applications.</description>
+      <initValue>'458d726a-57a1-4297-96cf-dcb34f22d3b8'</initValue>
+      <name>CLOUD_APP_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Project-relative APK path. Cloud does not install from it.</description>
+      <initValue>'App/1.0/Senegal_AgentApp_1.0-92-30-Sept-2026-protected.apk'</initValue>
+      <name>LOCAL_APK_PATH</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>TestCloud device display name.</description>
+      <initValue>'Samsung Galaxy S25 Ultra'</initValue>
+      <name>DEVICE_NAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>TestCloud device id.</description>
+      <initValue>'samsung_galaxy_s25_ultra'</initValue>
+      <name>DEVICE_ID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Android platform version.</description>
+      <initValue>'15'</initValue>
+      <name>OS_VERSION</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Named environment.</description>
+      <initValue>'staging'</initValue>
+      <name>ENVIRONMENT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Expected app version from Applications metadata.</description>
+      <initValue>'1.0'</initValue>
+      <name>EXPECTED_VERSION</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Expected build / versionCode from Applications metadata.</description>
+      <initValue>'92'</initValue>
+      <name>EXPECTED_BUILD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Default wait timeout in seconds.</description>
+      <initValue>30</initValue>
+      <name>DEFAULT_TIMEOUT</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>cloud or local.</description>
+      <initValue>'cloud'</initValue>
+      <name>RUN_TARGET</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

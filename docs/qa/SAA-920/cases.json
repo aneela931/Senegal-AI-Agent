@@ -1,0 +1,24 @@
+{
+  "sheetName": "SAA-920",
+  "cases": [
+    {
+      "id": "TC-920-001",
+      "feature": "Reidentification within SIM Swap",
+      "summary": "No behaviour is stated in the Jira description",
+      "preconditions": "None — description field is empty",
+      "input": "1. Cannot design steps from evidence.",
+      "expected": "Cannot be expected-resulted. getJiraIssue returned no description. Comments only attach a 10-case workbook (bytes not accessible) and note a GetSubscriberInfo API error on SAA-921. Do not copy SAA-918 re-identify buttons into this ticket.",
+      "actual": "",
+      "testType": "Functional",
+      "status": "BLOCKED_REQUIREMENT",
+      "priority": "High",
+      "environment": "staging",
+      "build": "1.0 / 92",
+      "assignee": "",
+      "traceability": "SAA-920; REQ-001; none stated",
+      "automation": "Manual",
+      "defectId": "",
+      "executionDate": ""
+    }
+  ]
+}

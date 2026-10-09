@@ -1,0 +1,109 @@
+{
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-002",
+      "testable": false,
+      "blocked": false
+    },
+    {
+      "id": "REQ-003",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-004",
+      "testable": true,
+      "blocked": false
+    },
+    {
+      "id": "REQ-005",
+      "testable": true,
+      "blocked": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "TC-911-001",
+      "reqs": [
+        "REQ-001"
+      ],
+      "technique": "positive",
+      "automationCandidate": false,
+      "automated": false,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-911-002",
+      "reqs": [
+        "REQ-003"
+      ],
+      "technique": "other",
+      "automationCandidate": false,
+      "automated": false,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-911-003",
+      "reqs": [
+        "REQ-005"
+      ],
+      "technique": "other",
+      "automationCandidate": true,
+      "automated": true,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-911-004",
+      "reqs": [
+        "REQ-004",
+        "REQ-001"
+      ],
+      "technique": "other",
+      "automationCandidate": false,
+      "automated": false,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-911-005",
+      "reqs": [
+        "REQ-001"
+      ],
+      "technique": "boundary",
+      "automationCandidate": false,
+      "automated": false,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    },
+    {
+      "id": "TC-911-006",
+      "reqs": [
+        "REQ-001"
+      ],
+      "technique": "other",
+      "automationCandidate": false,
+      "automated": false,
+      "blockedRequirement": true,
+      "execution": "blocked"
+    },
+    {
+      "id": "TC-911-007",
+      "reqs": [
+        "REQ-002"
+      ],
+      "technique": "other",
+      "automationCandidate": false,
+      "automated": false,
+      "blockedRequirement": false,
+      "execution": "not_run"
+    }
+  ]
+}

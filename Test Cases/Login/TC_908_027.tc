@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify invalid MSISDN format blocked before API</description>
+   <name>TC_908_027</name>
+   <tag>SAA-908,Negative</tag>
+   <comment>SAA-908. Text locators because the protected Flutter APK has no UI Test IDs.</comment>
+   <testCaseGuid>f6089aae-4f27-44d9-8d6c-740efc535573</testCaseGuid>
+</TestCaseEntity>

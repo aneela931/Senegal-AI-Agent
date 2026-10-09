@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify last-used MSISDN auto-fills on subsequent login</description>
+   <name>TC_908_004</name>
+   <tag>SAA-908,Functional</tag>
+   <comment>SAA-908. Text locators because the protected Flutter APK has no UI Test IDs.</comment>
+   <testCaseGuid>5cd403f0-5897-4af7-9fad-7949c8e57ea7</testCaseGuid>
+</TestCaseEntity>

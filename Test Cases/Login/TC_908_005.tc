@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify user can edit auto-filled MSISDN</description>
+   <name>TC_908_005</name>
+   <tag>SAA-908,Functional</tag>
+   <comment>SAA-908. Text locators because the protected Flutter APK has no UI Test IDs.</comment>
+   <testCaseGuid>84af960c-8e79-4ac7-9121-362815f6e422</testCaseGuid>
+</TestCaseEntity>

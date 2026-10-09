@@ -1,0 +1,57 @@
+{
+  "environment": "staging",
+  "defaultLanguage": "en",
+  "inventory": {
+    "users": [
+      {
+        "role": "agent",
+        "username": "PDV",
+        "msisdn": "768186947"
+      },
+      {
+        "role": "non_agent",
+        "username": "REPLACE_WITH_STAGING_NON_AGENT_USERNAME",
+        "msisdn": "REPLACE_WITH_STAGING_NON_AGENT_MSISDN"
+      },
+      {
+        "role": "customer",
+        "username": "REPLACE_WITH_STAGING_CUSTOMER_USERNAME",
+        "msisdn": "REPLACE_WITH_STAGING_CUSTOMER_MSISDN"
+      }
+    ],
+    "msisdns": [
+      "768186947",
+      "768186947"
+    ],
+    "flags": {
+      "loginEnabled": true,
+      "changeRequestEnabled": true
+    }
+  },
+  "testData": {
+    "users": [
+      {
+        "role": "agent",
+        "username": "REPLACE_WITH_STAGING_AGENT_USERNAME",
+        "msisdn": "768186947"
+      }
+    ],
+    "msisdns": [
+      "768186947"
+    ],
+    "login": {
+      "validMsisdnExample": "768186947",
+      "validOtp": "2407",
+      "validPin": "4803",
+      "invalidMsisdnFormat": "12345678",
+      "incorrectOtp": "000000",
+      "incorrectPin": "00000",
+      "fallbackMsisdn": "761440314",
+      "fallbackPin": "6857"
+    },
+    "flags": {
+      "loginEnabled": true,
+      "changeRequestEnabled": true
+    }
+  }
+}

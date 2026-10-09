@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Jira: SAA-913 | Requirement: REQ-001 | Test Case: TC-913-002</description>
+   <name>TC_913_002</name>
+   <tag>SAA-913,Functional</tag>
+   <comment>Jira: SAA-913 | Requirement: REQ-001 | Test Case: TC-913-002. Text locators because the protected Flutter APK has no UI Test IDs.</comment>
+   <testCaseGuid>453f1634-59af-41b1-8608-1a19c16d7f92</testCaseGuid>
+</TestCaseEntity>
